@@ -1,0 +1,11 @@
+#border{
+   border:solid black 3px;
+}
+tr,td{
+    width:100px;
+    height:20px;
+    border:solid black 2px;
+}
+th{
+    border:solid black 2px;
+}
