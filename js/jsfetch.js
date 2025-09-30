@@ -9,4 +9,8 @@ res.then((response)=>{
   console.log("DATA=",data);
 }).catch((error)=>{
   console.error("There was a problem with the fetch operation:", error);
+}).finally(()=>{
+  console.log("inside finally block.");
 });
+
+// console.log("After fetch call");
